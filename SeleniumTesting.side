@@ -1,0 +1,72 @@
+{
+  "id": "ce0b9193-9247-49d5-a115-7ca0c70b28c9",
+  "version": "2.0",
+  "name": "SeleniumTesting",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "39c87063-13df-474f-a8a9-9a980b831dca",
+    "name": "LinkedinPage",
+    "commands": [{
+      "id": "d3546786-9f48-4502-800b-1a24977de89b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0c9a541-07d6-4d53-b909-0dd4db0e84a1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1330x969",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ce5f67a-af6f-482f-8660-16da69819b77",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "971208dc-b0af-491e-9d21-024a2bc36083",
+      "comment": "",
+      "command": "click",
+      "target": "css=#jZ2SBf > .wM6W7d > span",
+      "targets": [
+        ["css=#jZ2SBf > .wM6W7d > span", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'rifat erdem sahin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e28c6c5-4959-4277-a414-2ce562c32959",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MjjYud:nth-child(4) .LC20lb",
+      "targets": [
+        ["css=.MjjYud:nth-child(4) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div[4]/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div/span/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Erdem Sahin - DevOps Engineering')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4c144169-7985-4a18-8903-a95671556c61",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["39c87063-13df-474f-a8a9-9a980b831dca"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

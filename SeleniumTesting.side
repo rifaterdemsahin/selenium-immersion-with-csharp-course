@@ -2,7 +2,8 @@
   "id": "ce0b9193-9247-49d5-a115-7ca0c70b28c9",
   "version": "2.0",
   "name": "SeleniumTesting",
-  "url": "https://www.google.co.uk/" [{
+  "url": "https://www.google.co.uk/",
+  "tests": [{
     "id": "39c87063-13df-474f-a8a9-9a980b831dca",
     "name": "LinkedinPage",
     "commands": [{

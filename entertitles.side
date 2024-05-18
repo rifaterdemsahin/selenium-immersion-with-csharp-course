@@ -1,0 +1,96 @@
+{
+  "id": "6d6bcd89-3b7f-4d99-a8c0-46c24979711e",
+  "version": "2.0",
+  "name": "entercourse",
+  "url": "https://courses.devops.engineering",
+  "tests": [{
+    "id": "05c8b862-5cb4-4af9-b430-dc1f018c2081",
+    "name": "enter top title and subtitle",
+    "commands": [{
+      "id": "b7c73261-d676-4b51-95de-1a275873d9c0",
+      "comment": "",
+      "command": "open",
+      "target": "/manage/courses/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5199064b-edb5-4fb7-96f7-bf6c0445f8d0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1728x970",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfcb634b-f64f-440a-879c-161454c2b1f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.router-tabs__navbar-actions_vZKh7 > .sc-bwzfXH",
+      "targets": [
+        ["css=.router-tabs__navbar-actions_vZKh7 > .sc-bwzfXH", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[3]/nav/div/button", "xpath:idRelative"],
+        ["xpath=//nav/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33de50a1-ed14-40ca-871b-88784e6cc262",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ReactModalPortal:nth-child(73) .Surface_surface__22:nth-child(1) > .sc-bwzfXH",
+      "targets": [
+        ["css=.ReactModalPortal:nth-child(73) .Surface_surface__22:nth-child(1) > .sc-bwzfXH", "css:finder"],
+        ["xpath=(//button[@type='button'])[110]", "xpath:attributes"],
+        ["xpath=//body[@id='courses']/div[18]/div/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[18]/div/div/div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81db6262-41f5-41b7-8f50-7c9ab6377267",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-5",
+      "targets": [
+        ["id=input-5", "id"],
+        ["css=#input-5", "css:finder"],
+        ["xpath=//input[@id='input-5']", "xpath:attributes"],
+        ["xpath=//body[@id='courses']/div[18]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[18]/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d68ca0e6-da49-4c19-9f67-b39eed0a4b54",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-5",
+      "targets": [
+        ["id=input-5", "id"],
+        ["css=#input-5", "css:finder"],
+        ["xpath=//input[@id='input-5']", "xpath:attributes"],
+        ["xpath=//body[@id='courses']/div[18]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[18]/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "AI-Driven DevOps: Enhancing Delivery on Demand for Beginners"
+    }, {
+      "id": "18290121-b2e6-4336-9f4a-60d092d81760",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ReactModalPortal:nth-child(73) .Modal_modal__footer__71 div",
+      "targets": [
+        ["css=.ReactModalPortal:nth-child(73) .Modal_modal__footer__71 div", "css:finder"],
+        ["xpath=//body[@id='courses']/div[18]/div/div/div[3]/button[2]/div", "xpath:idRelative"],
+        ["xpath=//div[18]/div/div/div[3]/button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4d414b28-12f9-47c7-b981-ea62c6688fe2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["05c8b862-5cb4-4af9-b430-dc1f018c2081"]
+  }],
+  "urls": ["https://courses.devops.engineering/"],
+  "plugins": []
+}

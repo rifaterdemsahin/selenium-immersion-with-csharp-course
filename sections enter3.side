@@ -1,0 +1,1141 @@
+{
+  "id": "cd8bd7fc-d47e-4955-8506-c405d59bc9f3",
+  "version": "2.0",
+  "name": "sections enter",
+  "url": "https://devopsengineering.thinkific.com",
+  "tests": [{
+    "id": "80cde792-8cac-4c68-9e5e-294c015d37f0",
+    "name": "enter sections from bulk importer",
+    "commands": [{
+      "id": "d9f77c2c-ff86-4904-8a9b-12b2d33c636c",
+      "comment": "",
+      "command": "open",
+      "target": "/manage/courses/2776905",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f287f9d-cb5b-4175-9809-7afd39042e09",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1273x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0163e92c-6431-405b-ba06-2439422fa78f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bulk importer",
+      "targets": [
+        ["linkText=Bulk importer", "linkText"],
+        ["css=.nav-item_oB7xU:nth-child(2) > .nav-link_Xow1y", "css:finder"],
+        ["xpath=//a[contains(text(),'Bulk importer')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-portal']/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/manage/courses/2776907/import')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bulk importer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a30c430-089c-4b08-ac94-308474ccec84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-chapter_uOzhc",
+      "targets": [
+        ["css=.add-chapter_uOzhc", "css:finder"],
+        ["xpath=(//button[@type='button'])[60]", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d01ad4ea-bda3-42fe-aab1-53f32c6e0ec9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Toast_toast__message__176 > span",
+      "targets": [
+        ["css=.Toast_toast__message__176 > span", "css:finder"],
+        ["xpath=//div[@id='1']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Successfully created a new chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "329ca07d-908b-4bd7-aa4b-297941ea9901",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-5",
+      "targets": [
+        ["id=input-5", "id"],
+        ["css=#input-5", "css:finder"],
+        ["xpath=//input[@id='input-5']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[3]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb4e13ae-a4c4-4ea9-9713-5cec6bb63764",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-5",
+      "targets": [
+        ["id=input-5", "id"],
+        ["css=#input-5", "css:finder"],
+        ["xpath=//input[@id='input-5']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[3]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36f45c2e-ee7e-48ed-973f-21978d43b76f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-5",
+      "targets": [
+        ["id=input-5", "id"],
+        ["css=#input-5", "css:finder"],
+        ["xpath=//input[@id='input-5']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[3]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3e58569-bd48-4e95-bf9c-35e695c3e2fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-5",
+      "targets": [
+        ["id=input-5", "id"],
+        ["css=#input-5", "css:finder"],
+        ["xpath=//input[@id='input-5']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[3]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1da175a-00bd-4075-9344-4d79a4519709",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-5",
+      "targets": [
+        ["id=input-5", "id"],
+        ["css=#input-5", "css:finder"],
+        ["xpath=//input[@id='input-5']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[3]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db3d2ee9-05ed-48af-8691-8556299e7a52",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-5",
+      "targets": [
+        ["id=input-5", "id"],
+        ["css=#input-5", "css:finder"],
+        ["xpath=//input[@id='input-5']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[3]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1dd1f87-0043-4ed7-bf17-fbd657352191",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-5",
+      "targets": [
+        ["id=input-5", "id"],
+        ["css=#input-5", "css:finder"],
+        ["xpath=//input[@id='input-5']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[3]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00111362-1149-44c3-972e-05e2f3d2894f",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-5",
+      "targets": [
+        ["id=input-5", "id"],
+        ["css=#input-5", "css:finder"],
+        ["xpath=//input[@id='input-5']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[3]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5c2419b-b726-4b20-b9d9-0caad9834448",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-5",
+      "targets": [
+        ["id=input-5", "id"],
+        ["css=#input-5", "css:finder"],
+        ["xpath=//input[@id='input-5']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[3]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Section 1: Introduction to DevOps and Testable Code,\\n"
+    }, {
+      "id": "fe67a638-2c3d-4811-9f79-9fdeef9850f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-chapter_uOzhc",
+      "targets": [
+        ["css=.add-chapter_uOzhc", "css:finder"],
+        ["xpath=(//button[@type='button'])[62]", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9687194-8dd6-4402-8e5c-79bbb3d1a677",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Toast_toast__message__176",
+      "targets": [
+        ["css=.Toast_toast__message__176", "css:finder"],
+        ["xpath=//div[@id='2']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adac5318-8719-4d2d-a52a-bb795c74a11c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(4) > .Surface_surface__22",
+      "targets": [
+        ["css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(4) > .Surface_surface__22", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92c0c056-a899-4c62-8234-6c7a39526276",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-6",
+      "targets": [
+        ["id=input-6", "id"],
+        ["css=#input-6", "css:finder"],
+        ["xpath=//input[@id='input-6']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[4]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eff3a03f-e931-47a3-93d9-94026e4e9ae8",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-6",
+      "targets": [
+        ["id=input-6", "id"],
+        ["css=#input-6", "css:finder"],
+        ["xpath=//input[@id='input-6']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[4]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a37c9f27-c863-4af1-8143-8cb51f2a14e0",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-6",
+      "targets": [
+        ["id=input-6", "id"],
+        ["css=#input-6", "css:finder"],
+        ["xpath=//input[@id='input-6']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[4]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d28b475f-7173-4f12-a2e6-c4fd9c57c629",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-6",
+      "targets": [
+        ["id=input-6", "id"],
+        ["css=#input-6", "css:finder"],
+        ["xpath=//input[@id='input-6']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[4]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1fac09a-592d-4963-a373-9e3941b939fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-6",
+      "targets": [
+        ["id=input-6", "id"],
+        ["css=#input-6", "css:finder"],
+        ["xpath=//input[@id='input-6']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[4]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Section 2: Fundamentals of Testable Code"
+    }, {
+      "id": "50496f09-5e96-4f0a-ab76-70cdee2421bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-chapter_uOzhc",
+      "targets": [
+        ["css=.add-chapter_uOzhc", "css:finder"],
+        ["xpath=(//button[@type='button'])[64]", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bce96af9-56f3-4b62-b148-c95f957f958c",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-7",
+      "targets": [
+        ["id=input-7", "id"],
+        ["css=#input-7", "css:finder"],
+        ["xpath=//input[@id='input-7']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[5]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c10dc90-6916-4a6d-8ec9-8184d83dd62e",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-7",
+      "targets": [
+        ["id=input-7", "id"],
+        ["css=#input-7", "css:finder"],
+        ["xpath=//input[@id='input-7']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[5]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de971246-8c5f-4278-bd6c-022b6b691c71",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-7",
+      "targets": [
+        ["id=input-7", "id"],
+        ["css=#input-7", "css:finder"],
+        ["xpath=//input[@id='input-7']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[5]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b9dc8bc-ae54-4e32-a16f-0cbbf5769671",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-7",
+      "targets": [
+        ["id=input-7", "id"],
+        ["css=#input-7", "css:finder"],
+        ["xpath=//input[@id='input-7']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[5]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed9df1f4-6ae6-4903-bfdf-677a9c8ba040",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-7",
+      "targets": [
+        ["id=input-7", "id"],
+        ["css=#input-7", "css:finder"],
+        ["xpath=//input[@id='input-7']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[5]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Section 3: Setting Up Your Environment for Testable Code"
+    }, {
+      "id": "67643976-49a0-49b2-a19e-e634cff2d596",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Toast_toast__message__176 > span",
+      "targets": [
+        ["css=.Toast_toast__message__176 > span", "css:finder"],
+        ["xpath=//div[@id='3']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Successfully created a new chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72cd4c98-426b-4200-8c18-b33d722fa09e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-chapter_uOzhc",
+      "targets": [
+        ["css=.add-chapter_uOzhc", "css:finder"],
+        ["xpath=(//button[@type='button'])[66]", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13167a29-cc19-4470-a75e-fe0dbc7f90e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-8",
+      "targets": [
+        ["id=input-8", "id"],
+        ["css=#input-8", "css:finder"],
+        ["xpath=//input[@id='input-8']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[6]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbb37e2d-3bb0-4736-adb5-3889e3f9b8a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-8",
+      "targets": [
+        ["id=input-8", "id"],
+        ["css=#input-8", "css:finder"],
+        ["xpath=//input[@id='input-8']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[6]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d92c4f7a-d88f-4cb3-9b4e-b888b5e0eebc",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-8",
+      "targets": [
+        ["id=input-8", "id"],
+        ["css=#input-8", "css:finder"],
+        ["xpath=//input[@id='input-8']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[6]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40b64a77-cbb9-45b3-a875-146788f9a346",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-8",
+      "targets": [
+        ["id=input-8", "id"],
+        ["css=#input-8", "css:finder"],
+        ["xpath=//input[@id='input-8']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[6]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "408e9e39-de6a-43ee-b6fe-477e3d956e3c",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-8",
+      "targets": [
+        ["id=input-8", "id"],
+        ["css=#input-8", "css:finder"],
+        ["xpath=//input[@id='input-8']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[6]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Section 4: Designing for Testability"
+    }, {
+      "id": "7eec7df3-a1da-4b6b-b854-a98ffc18dcbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Toast_toast__message__176",
+      "targets": [
+        ["css=.Toast_toast__message__176", "css:finder"],
+        ["xpath=//div[@id='4']/div[2]", "xpath:idRelative"],
+        ["xpath=//body/div[5]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e766e63-b67b-4190-a5a5-8d6d862d7705",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-chapter_uOzhc",
+      "targets": [
+        ["css=.add-chapter_uOzhc", "css:finder"],
+        ["xpath=(//button[@type='button'])[68]", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4ddf787-dd2a-44b8-b134-0f0887217608",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-9",
+      "targets": [
+        ["id=input-9", "id"],
+        ["css=#input-9", "css:finder"],
+        ["xpath=//input[@id='input-9']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[7]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fbc9985-bc41-4757-ba82-692bd3d604db",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-9",
+      "targets": [
+        ["id=input-9", "id"],
+        ["css=#input-9", "css:finder"],
+        ["xpath=//input[@id='input-9']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[7]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e167a1b-8514-42d1-bdc9-a9f895781b48",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-9",
+      "targets": [
+        ["id=input-9", "id"],
+        ["css=#input-9", "css:finder"],
+        ["xpath=//input[@id='input-9']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[7]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5eeb871f-1320-4ef9-9d71-d56cfc1e21cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-9",
+      "targets": [
+        ["id=input-9", "id"],
+        ["css=#input-9", "css:finder"],
+        ["xpath=//input[@id='input-9']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[7]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb77ddfe-2079-49ac-93d6-183d7bebbc61",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-9",
+      "targets": [
+        ["id=input-9", "id"],
+        ["css=#input-9", "css:finder"],
+        ["xpath=//input[@id='input-9']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[7]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Section 5: Tools and Technologies for Testable Code"
+    }, {
+      "id": "c818b5f3-cdd8-4012-9922-5a47b07efa5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Toast_toast__message__176 > span",
+      "targets": [
+        ["css=.Toast_toast__message__176 > span", "css:finder"],
+        ["xpath=//div[@id='5']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Successfully created a new chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f84f81b-fcea-413c-9f54-c3d81b65c87c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-chapter_uOzhc",
+      "targets": [
+        ["css=.add-chapter_uOzhc", "css:finder"],
+        ["xpath=(//button[@type='button'])[70]", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30ab1b2f-860a-4c96-9d2c-addb2ed0ba56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(8) > .Surface_surface__22",
+      "targets": [
+        ["css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(8) > .Surface_surface__22", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[8]/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0f9b7d5-634b-4aa0-90f8-a155a81edba3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(8) > .Surface_surface__22",
+      "targets": [
+        ["css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(8) > .Surface_surface__22", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[8]/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a73f7e3e-d566-4da6-b28d-429baf0fba09",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(8) > .Surface_surface__22",
+      "targets": [
+        ["css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(8) > .Surface_surface__22", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[8]/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "832d94bd-0753-4736-a034-4a6d4d130b3a",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-10",
+      "targets": [
+        ["id=input-10", "id"],
+        ["css=#input-10", "css:finder"],
+        ["xpath=//input[@id='input-10']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[8]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76cc5783-52be-4420-93ba-691ae8606578",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-10",
+      "targets": [
+        ["id=input-10", "id"],
+        ["css=#input-10", "css:finder"],
+        ["xpath=//input[@id='input-10']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[8]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a74a6bf-40c4-4a7a-be51-a4c3b07d84cc",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-10",
+      "targets": [
+        ["id=input-10", "id"],
+        ["css=#input-10", "css:finder"],
+        ["xpath=//input[@id='input-10']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[8]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f89d9041-b353-495f-9603-f2991169a7fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-10",
+      "targets": [
+        ["id=input-10", "id"],
+        ["css=#input-10", "css:finder"],
+        ["xpath=//input[@id='input-10']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[8]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e78c4d9-8e48-487a-a906-2d0ba9c03ef7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(8) .bulk-importer-chapter__uploader_Ng6kr .sc-bwzfXH",
+      "targets": [
+        ["css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(8) .bulk-importer-chapter__uploader_Ng6kr .sc-bwzfXH", "css:finder"],
+        ["xpath=(//button[@type='button'])[71]", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[8]/div/div[3]/div/div/div/span[3]/button", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div[3]/div/div/div/span[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17049baa-0c2d-4388-8e1d-3ec53c163a15",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-10",
+      "targets": [
+        ["id=input-10", "id"],
+        ["css=#input-10", "css:finder"],
+        ["xpath=//input[@id='input-10']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[8]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Section 6: Refactoring Code for Testability"
+    }, {
+      "id": "29979282-ef55-4f37-8669-39ac500976f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Toast_toast__message__176 > span",
+      "targets": [
+        ["css=.Toast_toast__message__176 > span", "css:finder"],
+        ["xpath=//div[@id='6']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Successfully created a new chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71e80f85-89bc-4719-8db5-a68c7499a976",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-chapter_uOzhc",
+      "targets": [
+        ["css=.add-chapter_uOzhc", "css:finder"],
+        ["xpath=(//button[@type='button'])[72]", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6e31a01-26c5-4b23-bafe-36f7b8d9c321",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.add-chapter_uOzhc",
+      "targets": [
+        ["css=.add-chapter_uOzhc", "css:finder"],
+        ["xpath=(//button[@type='button'])[72]", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1923181-bf2c-419d-b1fc-ff61b9f69496",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.add-chapter_uOzhc",
+      "targets": [
+        ["css=.add-chapter_uOzhc", "css:finder"],
+        ["xpath=(//button[@type='button'])[72]", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67bd855c-3a77-43b7-98c4-eddba1eb2581",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-11",
+      "targets": [
+        ["id=input-11", "id"],
+        ["css=#input-11", "css:finder"],
+        ["xpath=//input[@id='input-11']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[9]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f38d718-3241-4f9a-ace9-1546fa1cce71",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-11",
+      "targets": [
+        ["id=input-11", "id"],
+        ["css=#input-11", "css:finder"],
+        ["xpath=//input[@id='input-11']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[9]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6952834a-1594-4614-889f-4d514d4c4d0d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-11",
+      "targets": [
+        ["id=input-11", "id"],
+        ["css=#input-11", "css:finder"],
+        ["xpath=//input[@id='input-11']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[9]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb3f6f62-d7f6-4281-a18e-479c142f2a77",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-11",
+      "targets": [
+        ["id=input-11", "id"],
+        ["css=#input-11", "css:finder"],
+        ["xpath=//input[@id='input-11']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[9]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "108dddb2-028a-4eee-877b-9273f99e4d61",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(9) .learn-more-link_RMuuB",
+      "targets": [
+        ["css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(9) .learn-more-link_RMuuB", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[9]/div/div[3]/small/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://support.thinkific.com/hc/en-us/articles/360030373034')])[9]", "xpath:href"],
+        ["xpath=//div[9]/div/div[3]/small/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f00f1077-fb8d-4406-9274-67c953b9dc7f",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-11",
+      "targets": [
+        ["id=input-11", "id"],
+        ["css=#input-11", "css:finder"],
+        ["xpath=//input[@id='input-11']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[9]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Section 7: Building a Culture of Quality with Testable Code\\n"
+    }, {
+      "id": "30db8ed5-a30f-4d2e-9481-a890cae2f510",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Toast_toast__message__176 > span",
+      "targets": [
+        ["css=.Toast_toast__message__176 > span", "css:finder"],
+        ["xpath=//div[@id='7']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Successfully created a new chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b64029d-c15b-48dc-ad50-ab1941621679",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-chapter_uOzhc",
+      "targets": [
+        ["css=.add-chapter_uOzhc", "css:finder"],
+        ["xpath=(//button[@type='button'])[74]", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e149529c-ca2a-434d-a8d6-a8e11bdd175b",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-12",
+      "targets": [
+        ["id=input-12", "id"],
+        ["css=#input-12", "css:finder"],
+        ["xpath=//input[@id='input-12']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[10]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9f04a9d-5b15-4c58-94a7-76bc28bfbad0",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-12",
+      "targets": [
+        ["id=input-12", "id"],
+        ["css=#input-12", "css:finder"],
+        ["xpath=//input[@id='input-12']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[10]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8311500-1b6a-4d4c-a9eb-e71806afc691",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-12",
+      "targets": [
+        ["id=input-12", "id"],
+        ["css=#input-12", "css:finder"],
+        ["xpath=//input[@id='input-12']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[10]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e35fd385-8f61-47a7-b39f-bcd99e15b161",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-12",
+      "targets": [
+        ["id=input-12", "id"],
+        ["css=#input-12", "css:finder"],
+        ["xpath=//input[@id='input-12']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[10]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c684f206-3fba-4301-921a-6cd25b705f6a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(10) .learn-more-link_RMuuB",
+      "targets": [
+        ["css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(10) .learn-more-link_RMuuB", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[10]/div/div[3]/small/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://support.thinkific.com/hc/en-us/articles/360030373034')])[10]", "xpath:href"],
+        ["xpath=//div[10]/div/div[3]/small/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "287646ff-7075-4c20-80b0-92e97cd3b55a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(10) .learn-more-link_RMuuB",
+      "targets": [
+        ["css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(10) .learn-more-link_RMuuB", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[10]/div/div[3]/small/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://support.thinkific.com/hc/en-us/articles/360030373034')])[10]", "xpath:href"],
+        ["xpath=//div[10]/div/div[3]/small/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6a81338-15f6-4e98-a2b9-5a9fb851d18a",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-12",
+      "targets": [
+        ["id=input-12", "id"],
+        ["css=#input-12", "css:finder"],
+        ["xpath=//input[@id='input-12']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[10]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Section 8: Enhancing Delivery with Testable Code"
+    }, {
+      "id": "1adf6b23-887e-4794-b622-6715b90d595b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Toast_toast__message__176 > span",
+      "targets": [
+        ["css=.Toast_toast__message__176 > span", "css:finder"],
+        ["xpath=//div[@id='8']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Successfully created a new chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01e79505-a384-48de-bb6d-8959abe74b96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-chapter_uOzhc",
+      "targets": [
+        ["css=.add-chapter_uOzhc", "css:finder"],
+        ["xpath=(//button[@type='button'])[76]", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b680b70-321d-493f-a76c-bf492349e40f",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-13",
+      "targets": [
+        ["id=input-13", "id"],
+        ["css=#input-13", "css:finder"],
+        ["xpath=//input[@id='input-13']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[11]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec0cf93f-6ac4-4915-bfc3-77ea37e8f39b",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-13",
+      "targets": [
+        ["id=input-13", "id"],
+        ["css=#input-13", "css:finder"],
+        ["xpath=//input[@id='input-13']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[11]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8787c092-f3e8-4c92-b6c6-4f1950e5ca1c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-13",
+      "targets": [
+        ["id=input-13", "id"],
+        ["css=#input-13", "css:finder"],
+        ["xpath=//input[@id='input-13']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[11]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14f71aa0-e9a4-4cc8-b28c-dca7ffa307ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-13",
+      "targets": [
+        ["id=input-13", "id"],
+        ["css=#input-13", "css:finder"],
+        ["xpath=//input[@id='input-13']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[11]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afbad4bd-bf49-4346-b644-b484723e8c59",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-13",
+      "targets": [
+        ["id=input-13", "id"],
+        ["css=#input-13", "css:finder"],
+        ["xpath=//input[@id='input-13']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[11]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Section 9: Future Trends and Career Opportunities in DevOps and Testable Code"
+    }, {
+      "id": "cbc120c0-eac2-46e9-9f4b-254d0e2af4eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Toast_toast__message__176 > span",
+      "targets": [
+        ["css=.Toast_toast__message__176 > span", "css:finder"],
+        ["xpath=//div[@id='9']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Successfully created a new chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff73fb8a-6b8c-475c-bcc9-9c21622f3f75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-chapter_uOzhc",
+      "targets": [
+        ["css=.add-chapter_uOzhc", "css:finder"],
+        ["xpath=(//button[@type='button'])[78]", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccb0591c-7140-4ec8-b5ac-b106aea525de",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-14",
+      "targets": [
+        ["id=input-14", "id"],
+        ["css=#input-14", "css:finder"],
+        ["xpath=//input[@id='input-14']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[12]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac98b7ba-0393-4a58-b9a3-3890356bb57b",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-14",
+      "targets": [
+        ["id=input-14", "id"],
+        ["css=#input-14", "css:finder"],
+        ["xpath=//input[@id='input-14']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[12]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9995972a-de72-41d8-9a32-8441470a5c32",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-14",
+      "targets": [
+        ["id=input-14", "id"],
+        ["css=#input-14", "css:finder"],
+        ["xpath=//input[@id='input-14']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[12]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69d1eebd-8658-4587-8e8b-5112538c4bc5",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-14",
+      "targets": [
+        ["id=input-14", "id"],
+        ["css=#input-14", "css:finder"],
+        ["xpath=//input[@id='input-14']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[12]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f76f464e-a515-48f1-a799-378ac1621a1d",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-14",
+      "targets": [
+        ["id=input-14", "id"],
+        ["css=#input-14", "css:finder"],
+        ["xpath=//input[@id='input-14']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[12]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Conclusion and Next Steps"
+    }, {
+      "id": "6ebd0902-1b0a-4149-a254-c9ab9a729d68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(12) .FilestackInlineUploader_file-uploader__default__container__55",
+      "targets": [
+        ["css=.bulk-importer-chapter__draggable_oQ1DN:nth-child(12) .FilestackInlineUploader_file-uploader__default__container__55", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/ol/div[12]/div/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afcfc02a-953c-49b9-bab0-15d23d723452",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Toast_toast__message__176",
+      "targets": [
+        ["css=.Toast_toast__message__176", "css:finder"],
+        ["xpath=//div[@id='10']/div[2]", "xpath:idRelative"],
+        ["xpath=//body/div[5]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8985d6a5-593a-494b-9ab8-e95f63a631b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-chapter_uOzhc",
+      "targets": [
+        ["css=.add-chapter_uOzhc", "css:finder"],
+        ["xpath=(//button[@type='button'])[80]", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add chapter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "60e23638-ca78-4592-b0b8-682b58631b85",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["80cde792-8cac-4c68-9e5e-294c015d37f0"]
+  }],
+  "urls": ["https://devopsengineering.thinkific.com/"],
+  "plugins": []
+}
